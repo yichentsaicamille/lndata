@@ -1,0 +1,22 @@
+.main-header{
+    border-top: 3px solid #000;
+    margin-top: 10px;
+}
+.main-header .banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+.icon{
+    cursor: pointer;
+}
+.main-header .title-wrap{
+    background-color: #000;
+}
+.main-header .container{
+    color: rgb(243, 157, 29);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 6px 0;
+}

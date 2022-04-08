@@ -1,0 +1,38 @@
+.filter-wrap{
+    height: 80px;
+    border: 2px solid #17a8a2;
+    margin: 30px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+.filter-wrap .select-wrap{
+    display: flex;
+    margin-right: 50px;
+}
+.filter-wrap .keywrap{
+    display: flex;
+}
+.filter-wrap .keywrap input[type="text"]{
+    height: 30px;
+}
+.filter-wrap .keywrap input[type="text"]:focus{
+    outline: none;
+}
+.filter-wrap .search input[type="submit"]{
+    color: #FFF;
+    background-color: #17a8a2;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+.filter-wrap .search input[type="submit"]:hover{
+    background-color: #29cac5;
+}
+.searchBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+}
